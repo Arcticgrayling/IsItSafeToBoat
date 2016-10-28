@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/222528/f010ed3edd254c46b1cddfcdce527404
+bundleId: https://api.rpubs.com/api/v1/document/222528/f010ed3edd254c46b1cddfcdce527404
+url: http://rpubs.com/arcticgrayling/222528
+when: 1477683719.52683
