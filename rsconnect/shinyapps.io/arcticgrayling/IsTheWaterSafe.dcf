@@ -2,8 +2,8 @@ name: IsTheWaterSafe
 account: arcticgrayling
 server: shinyapps.io
 appId: 134050
-bundleId: 599652
+bundleId: 600131
 url: https://arcticgrayling.shinyapps.io/IsTheWaterSafe/
-when: 1477680463.14177
+when: 1477754061.56674
 asMultiple: FALSE
 asStatic: FALSE

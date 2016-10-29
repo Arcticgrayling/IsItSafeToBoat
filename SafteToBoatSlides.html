@@ -22,11 +22,11 @@ Peter Olsen
 </div>
 <div id="the-river" class="slide section level2">
 <h1>The River</h1>
-<p>The Mystic River is located in the Boston, Massachusets area. Like many urban rivers it struggles with water polution, but a lot of effort has been put into cleaning it up and maintaing it as a quality watershed for boaters as well as meeting enviornmental goals.</p>
+<p>The Mystic River is located in the Boston, Massachusetts area. Like many urban rivers it struggles with water quality issues. In recent years, a lot of effort has been put into cleaning it up and maintain it as a quality watershed for recreational use as well as to meet environmental goals.</p>
 </div>
 <div id="boating" class="slide section level2">
 <h1>Boating</h1>
-<p>The Mystic is safe for recreational purposes most of the time. It sometimes sees unsafe levels of E. coli bacteria. One predictor of these unsafe conditions is the amount of rain that has occurred in the last 48 hours.</p>
+<p>The Mystic River is safe for boating/kayaking most of the time. Sometimes unsafe levels of E. coli bacteria are recorded. One predictor of these unsafe conditions is the amount of rain that has occurred in the last 48 hours.</p>
 <p>This project allows the public to enter the amount of rain that has recently occurred and check if conditions on the river are estimated to be safe enough for recreational boating or if they should put off plans until another time.</p>
 <p>Unsafe conditions are highlighted in RED.</p>
 <p>The App:<br />
@@ -34,22 +34,23 @@ Peter Olsen
 </div>
 <div id="technical-details" class="slide section level2">
 <h1>Technical details</h1>
-<p>The site uses linear models with data collected in 2015 to predict bacterial levels based on precipitation amounts in the last 48 hours. In addition to the linear modesl running in R, code was written in shiniy to highlight certain conditions with color.</p>
+<p>The site uses linear models with data collected in 2015 to predict bacterial levels based on precipitation amounts in the last 48 hours. In addition to the linear models running in R, code was written in shiny to highlight certain conditions with color.</p>
 <h3 id="e.-coli-levels">E. coli levels</h3>
 <ul>
 <li>Color Blue: under 235/100ml; considered safe for boating and swimming.<br />
 </li>
-<li>Color Yellow: over 235 but below 1260; considered save for boating but not swimming.<br />
+<li>Color Yellow: over 235/100ml but below 1260/100ml; considered safe for boating but not swimming.<br />
 </li>
-<li>Color Red: over 1260; considered unsafe for all recreational activity on the river.</li>
+<li>Color Red: over 1260/100ml; considered unsafe for all recreational activity on the river.</li>
 </ul>
 <h4 id="the-code">The code</h4>
-<p>The Code can be found on github at:</p>
+<p>The Code can be found on git hub at:</p>
+<p><a href="https://github.com/Arcticgrayling/IsItSafeToBoat" class="uri">https://github.com/Arcticgrayling/IsItSafeToBoat</a></p>
 </div>
 <div id="other" class="slide section level2">
 <h1>Other</h1>
 <ul>
-<li>Disclaimer: This site uses preliminary data and an untested prediction model, it is for educational and demonstration purposes only. For more information about the Mystic River and water quality, got to <a href="http://mysticriver.org/" class="uri">http://mysticriver.org/</a></li>
+<li>Disclaimer: This site uses preliminary data and prediction models, it is for educational and demonstration purposes only. For more information about the Mystic River and water quality, got to <a href="http://mysticriver.org/" class="uri">http://mysticriver.org/</a></li>
 </ul>
 </div>
 

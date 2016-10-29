@@ -27,39 +27,38 @@ ui <- shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       h2("Expected Water Saftey"),
-      h4("Based on predicted E. coli Bacteria Levels*"),
-      h5("Precipitation has been show to raise bacterial levels rivers.  This site will
+      h4("Based on predicted E. coli Bacteria Levels (per 100 mL)*"),
+      h5("Precipitation has been shown to raise bacteria levels in the Mystic river.  This App will
          help boaters determine the saftey of the water before they go boating."),
+      
       br(),
     
-        h3("Blessing of the Bay:"),
-        p(uiOutput("BOBHtml1")),
-        div("Predicted Bacteria level:", 
-           textOutput("BOBHtml2"), style = "border:solid"), 
+      h3("Blessing of the Bay:"),
+      p(uiOutput("BOBHtml1")),
+      div("Predicted Bacteria level:", 
+      textOutput("BOBHtml2"), style = "border:solid"), 
       
-      
-      
-        h3("Lower Mystic River:"),
-        p(uiOutput("MYR0435Html1")),
-        div("Predicted Bacteria level:", 
+      h3("Lower Mystic River:"),
+      p(uiOutput("MYR0435Html1")),
+      div("Predicted Bacteria level:", 
            textOutput("MYR0435Html2"), style = "border:solid"),
       
-     
-      
-        br(),
-        h3("Malden River:"),
-        p(uiOutput("MAR0065Html1")),
-        div("Predicted Bacteria level:",
-            textOutput("MAR0065Html2"), style = "border: solid"),
+      br(),
+      h3("Malden River:"),
+      p(uiOutput("MAR0065Html1")),
+      div("Predicted Bacteria level:",
+      textOutput("MAR0065Html2"), style = "border: solid"),
          
-         br(),
-         h5("http://rpubs.com/arcticgrayling/222528"),
-         h5("* Notice: This site uses preliminary data and prediction models, 
+      br(),
+      h5("For more information on this project go to:"),
+      a("http://rpubs.com/arcticgrayling/222528",href="http://rpubs.com/arcticgrayling/222528"),
+      br(),
+      h5("* Notice: This site uses preliminary data and prediction models, 
             it is for educational and demonstration purposes only.  
             For more information about the Mystic River and water quality, 
             go to:"),
-          a("http://mysticriver.org/"),
-         br(),
+      a("http://mysticriver.org/",     href="http://mysticriver.org/"),
+      br(),
       br()
       
     )
